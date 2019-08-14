@@ -1,7 +1,7 @@
 # code your #position_taken? method here!
 
 def position_taken?(board, index)
-  if index_number == "X" || "O"
+  if index == "X" || "O"
     return true 
   
   else 
