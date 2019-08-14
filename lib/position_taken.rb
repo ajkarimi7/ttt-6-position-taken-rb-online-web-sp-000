@@ -5,10 +5,10 @@ def position_taken?(board, index)
   taken = nil 
   
   if board[index] == " " || "" || nil
-    return false 
+    taken = false 
     
   else
-    return true
+    taken = true
   
   end
   
